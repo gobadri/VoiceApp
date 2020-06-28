@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(to downright, #d9d9d9 , #a1a1a1);
+}
+
+button{
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 7em;
+    height: 7em;
+    border-radius: 500px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(133, 241, 209) , rgb(132, 204, 238));
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: lobster;
+    color: white;
+}
+
+.circle1{
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 15em;
+    height: 15em;
+    border-radius: 500px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(189, 255, 235) , rgb(203, 238, 255));
+}
+
+.circle2{
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 13em;
+    height: 13em;
+    border-radius: 500px;
+    border: none;
+    background-image: linear-gradient(to left, rgb(162, 255, 227) , rgb(173, 229, 255));
+}
+
+h2{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+    font-size: 1em;
+    color: #a1a1a1;
+}
